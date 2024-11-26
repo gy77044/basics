@@ -1,0 +1,42 @@
+import {IconSelRectangle} from '../../../../../assests/icons/EPCIcon';
+export const obstructiontype = [
+    "Existing Solar Modules",
+    "Helipad",
+    "Turbo Vents",
+    "Mobile Tower",
+    "Chimney",
+    "Nearby Trees",
+    "Parapet Wall",
+    "Skylights",
+    "Roof Ridge",
+    "HVAC Equipment",
+    "Mumty Structure",
+    "Extended Columns",
+    "Pipelines",
+    "Others",
+];
+
+export const infratype:{name:string,type:'rectangle'|'circle'|'triangle',category:'Infrastructure Type'|'Obstruction Type'}[] = [
+  { name:"Walkway",type:"rectangle",category:'Infrastructure Type'}, 
+  { name:"Lifeline",type:"rectangle",category:'Infrastructure Type'}, 
+  { name:"Handrail",type:'rectangle',category:'Infrastructure Type'},
+  { name:"AC Earthing Pit",type:'circle',category:'Infrastructure Type'},
+  { name:"DC Earthing Pit",type:'circle',category:'Infrastructure Type'},
+  { name:"Lightning Arrestor",type:'circle',category:'Infrastructure Type'},
+  { name:"Inverter Placement",type:'rectangle',category:'Infrastructure Type'},
+  { name:"Water Storage Tank",type:'circle',category:'Infrastructure Type'},
+  { name:"Module Cleaning Pipe",type:'rectangle',category:'Infrastructure Type'},
+  { name:"Helipad",type:'circle',category:'Obstruction Type'},  
+  { name:"Chimney",type:'rectangle',category:'Obstruction Type'},  
+  { name:"Skylights",type:'rectangle',category:'Obstruction Type'},  
+  { name:"Pipelines",type:'rectangle',category:'Obstruction Type'},  
+  { name:"Roof Ridge",type:'rectangle',category:'Obstruction Type'},  
+  { name:"Mobile Tower",type:'triangle',category:'Obstruction Type'},  
+  { name:"Turbo Vents",type:'circle',category:'Obstruction Type'},  
+  { name:"Parapet Wall",type:'rectangle',category:'Obstruction Type'},  
+  { name:"Nearby Trees",type:'circle',category:'Obstruction Type'},  
+  { name:"Mumty Structure",type:'rectangle',category:'Obstruction Type'},  
+  { name:"HVAC Equipment",type:'rectangle',category:'Obstruction Type'},  
+  { name:"Extended Columns",type:'rectangle',category:'Obstruction Type'},  
+  { name:"Existing Solar Modules",type:'rectangle',category:'Obstruction Type'}
+];
